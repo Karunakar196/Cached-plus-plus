@@ -1,0 +1,130 @@
+.Upload {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    text-align: left;
+    overflow: hidden;
+    width : 60%;
+}
+
+.Content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Title {
+    margin-bottom: 32px;
+    color: #555;
+}
+
+
+
+.Row {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    padding: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+button  {
+    font-family: 'Roboto medium', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    height: 35px;
+    min-width: 98px;
+    padding: 6px 23px;
+    line-height: 1.429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    border-radius: 2px;
+    background: rgba(103, 58, 183, 1);
+    color: #fff;
+    outline: 0;
+    margin-left: 540px;
+    margin-bottom: 107px;
+    margin-top: -37px;
+}
+
+
+
+
+button:disabled {
+    background: rgb(189, 189, 189);
+    cursor: default;
+}
+
+
+.ResultsTable {
+    width : 300%;
+}
+
+.HeaderCellCustomize {
+    /*wdith : 100%;*/
+    background-color: #f9fafb;
+}
+
+/*.queryBox {*/
+/*    width : 100%;*/
+/*}*/
+
+/*.input {*/
+/*    width : 78%;*/
+/*}*/
+
+.col1 {
+    width : 7%;
+}
+
+.col2 {
+    width : 6%;
+}
+
+.col3 {
+    width : 3%;
+}
+
+.col4 {
+    width : 30%;
+}
+
+.input {
+    width : 60%;
+}
+
+
+
+.Query {
+    width : 60%;
+}
+
+.ui.input.input_1.input {
+    width : 60%;
+}
+
+.form-group,
+
+.form-control{
+    display:inline-block;
+    width:100%;
+}
+
+.ui input {
+    width : 100%;
+    font-size: x-large;
+}
